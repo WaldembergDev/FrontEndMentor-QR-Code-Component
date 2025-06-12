@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  background: hsl(212, 45%, 89%);
+  height: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quadro {
+  background: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40rem;
+}
+
+.quadro img {
+  max-width: 100%;
+  border-radius: 1.5rem;
+}
+
+.texto-paragrafo {
+  color: hsl(218, 44%, 22%);
+}
