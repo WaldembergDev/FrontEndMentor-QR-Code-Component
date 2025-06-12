@@ -30,12 +30,17 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 40rem;
+  width: 30rem;
 }
 
 .quadro img {
   max-width: 100%;
   border-radius: 1.5rem;
+  align-self: center;
+}
+
+.quadro-texto {
+  padding: 0.6rem;
 }
 
 .texto-paragrafo {
